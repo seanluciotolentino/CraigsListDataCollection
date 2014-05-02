@@ -1,0 +1,2 @@
+MAILTO=seanluciotolentino@gmail.com
+0 12 * * * /usr/bin/python /nfs/vinci/vinci.1/home/stolenti/data/update0-24.py 
