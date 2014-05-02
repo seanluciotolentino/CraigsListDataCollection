@@ -18,9 +18,9 @@ http://reference.3taps.com/categories/?auth_token=b49d0f32cd93c0a3102d96bf7841c0
 
 7. update24-48.py -- Same as above but with posting between 24 and 48 hours ago. 
 
-8. cron_craigslist -- the cron job specification. Submitted with crontab cron_craigslist. Remove the cronjob with crontab -r and list the cronjobs with crontab -l
+8. cron_craigslist -- the cron job specification. Submitted with crontab cron_update0-24. Remove the cronjob with crontab -r and list the cronjobs with crontab -l
 
-To do create a zip file, run the following command from the data directory
+To create a zip file, run the following command from the data directory
 
 zip craigslist.zip ./craigslist_csv/*.csv
 
