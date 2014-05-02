@@ -19,9 +19,9 @@ for i in range(len(sources)):
     assert last_update == dates[i],"update didn't match. Source:{0}, Updated{1}".format(sources[i],last_update)
 
 #load locations and categories
-locations = pickle.load(open('/nfs/vinci/vinci.1/home/stolenti/data/cl_locations','r'))
-categories = pickle.load(open('/nfs/vinci/vinci.1/home/stolenti/data/cl_categories','r'))
-category_groups = pickle.load(open('/nfs/vinci/vinci.1/home/stolenti/data/cl_category_groups'))
+locations = pickle.load(open(wdir+'/cl_locations','r'))
+categories = pickle.load(open(wdir+'/cl_categories','r'))
+category_groups = pickle.load(open(wdir+'/cl_category_groups'))
 all_categories = categories+category_groups
 
 #loop through categories and make a query for each
