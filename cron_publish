@@ -1,2 +1,0 @@
-MAILTO=seanluciotolentino@gmail.com
-0 13 * * * ./nfs/vinci/vinci.1/home/stolenti/CraigsListDataCollection/publish.sh 

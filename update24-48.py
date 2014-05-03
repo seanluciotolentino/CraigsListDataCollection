@@ -6,8 +6,8 @@ import os
 
 #parameters:
 auth_token='b49d0f32cd93c0a3102d96bf7841c0c5'
-start = int(time.time() - (24*60*60))
-stop = int(time.time() - (0*60*60))
+start = int(time.time() - (48*60*60))
+stop = int(time.time() - (24*60*60))
 wdir = '/nfs/vinci/vinci.1/home/stolenti/CraigsListDataCollection'
 
 #do a quick check to see if there's been updates to our lists
@@ -34,7 +34,7 @@ for category in all_categories:
     counts = {d["term"]:d["count"] for d in dictionary["counts"]}
 
     #open the file for this category and write to it
-    f = open('{0}/data0-24/{1}.csv'.format(wdir,category),'a')  # 'a' for append
+    f = open('{0}/data24-48/{1}.csv'.format(wdir,category),'a')  # 'a' for append
     f.write(time.ctime()+",")
     for location in locations:
         if location not in counts:

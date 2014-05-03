@@ -1,4 +1,4 @@
 MAILTO=seanluciotolentino@gmail.com
 0 12 * * * /usr/bin/python /nfs/vinci/vinci.1/home/stolenti/CraigsListDataCollection/update0-24.py 
 0 12 * * * /usr/bin/python /nfs/vinci/vinci.1/home/stolenti/CraigsListDataCollection/update24-48.py 
-0 13 * * * ./nfs/vinci/vinci.1/home/stolenti/CraigsListDataCollection/publish.sh 
+0 13 * * * /nfs/vinci/vinci.1/home/stolenti/CraigsListDataCollection/publish.sh 
